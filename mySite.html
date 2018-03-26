@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="Bootstrap/css/myStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand navbar-fixed-top bg-dark navbar-dark ">
+        <a class="navbar-brand" href="#">My Site</a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="mySite.html">
+                    <span class="fa fa-home"> Home</span>
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#foot">
+                    <i class="fa fa-info"> About</i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="mycontainer">
+        <div class="verticalmiddle">
+            <div>
+                <h1>WELCOME TO MHOW</h1>
+                <h2>Cantonment Town</h2>
+                <p style="width: 60%; margin: auto;">Mhow, officially known as Dr Ambedkar Nagar,is a cantonment in the Indore District in Madhya Pradesh state
+                    of India. It is located 23 kilometres (14 mi) south of Indore city towards Mumbai on the Mumbai-Agra
+                    Road. The town was renamed as Dr Ambedkar Nagar in 2003, by the Government of Madhya Pradesh.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="video">
+        <div class="videoblock">
+            <video controls width="50%">
+                <source src="Resource/Video/army.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Resource/Image/map.png" alt="Los Angeles" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="Resource/Image/mhow.jpg" alt="Chicago" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="Resource/Image/mhow2.jpeg" alt="New York" width="1100" height="500">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    <div class="infomation" id="foot">
+        ITPM - 2018
+    </div>
+</body>
+
+</html>
